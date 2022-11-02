@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: tour-service
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    password: ${DB_PASSWORD:root}
+    url: ${JDBC_URL:jdbc:mariadb://localhost:3306/packagedb}
+    username: ${DB_USER:root}
+    
+    
+registration: http://localhost:8087/adminRegistration/find/
+findByEmail: http://localhost:8087/registration/byEmail/
+notification: http://localhost:8084/notify/sendMail/
