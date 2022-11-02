@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: registrations-service
+     
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    password: ${DB_PASSWORD:root}
+    url: ${JDBC_URL:jdbc:mariadb://localhost:3306/tourdb}
+    username: ${DB_USER:root}
