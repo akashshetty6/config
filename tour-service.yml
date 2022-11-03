@@ -9,5 +9,5 @@ spring:
     
     
 registration: http://registrations-service/adminRegistration/find/
-findByEmail: http://registration-service/registration/byEmail/
+findByEmail: http://registrations-service/registration/byEmail/
 notification: http://notification-service/notify/sendMail/
